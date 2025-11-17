@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'DFVN Modak';
+    src: url('DFVN-Modak-Regular.eot');
+    src: url('DFVN-Modak-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DFVN-Modak-Regular.woff2') format('woff2'),
+        url('DFVN-Modak-Regular.woff') format('woff'),
+        url('DFVN-Modak-Regular.ttf') format('truetype'),
+        url('DFVN-Modak-Regular.svg#DFVN-Modak-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

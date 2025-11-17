@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("Grid_system.css");
+@import url("../fonts/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+.f-alegreya
+{
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.f-vend-sans 
+{
+  font-family: "Vend Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+body
+{
+	background-color: #eee;
+	color: #2F2E2E;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin: 0;
+}
+h1,h2,h3,h4, .menu
+{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: block;
+	
+}
+h1
+{
+	background: #121FCF;
+	background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.font-modak
+{
+	font-family:'DFVN Modak'
+}
+.menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+.menu ul li
+{
+	display: inline-block;
+	position: relative;
+	
+}
+.menu ul li a
+{
+
+	background-color: #FFCE00;
+	/*background: linear-gradient (to right, #121FCF 0%, #CF1512 100%);*/
+	padding: 8px 16px;
+	display:block;
+	color:black;
+	text-decoration: none;
+}
+.menu ul li a:hover
+{
+	background-color:rgba(228,220,0,1.00)
+}
+.menu ul ul
+{
+	position:absolute;
+	left:0;
+	top: 100%;
+	background-color:rgba(255,255,255,0.8);
+	width: 200px;
+	display: none
+
+}
+.menu ul ul li
+{
+	display:block;
+	border-bottom: 1px solid #391919;
+	
+}
+.menu ul li:hover> ul
+{
+	display:block;
+}
+.menu
+{
+	border-bottom: thin solid;
+	color:#EBBF09;
+	
+}
+
+.bg-xam
+{
+	background: #D1D1D1;
+}
+footer h4{
+	color:#FFF200
+}
+
+body h3:hover{
+	
+color:#FFCE00
+}
